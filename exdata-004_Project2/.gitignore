@@ -1,0 +1,29 @@
+# Ignore datasets
+ 
+data/
+tidy.txt
+*.csv
+*.zip
+*.RDS
+ 
+# R Ignores #
+######################
+ 
+# History files
+.Rhistory
+ 
+# Example code in package build process
+*-Ex.R
+ 
+# R data files from past sessions
+.Rdata
+ 
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
